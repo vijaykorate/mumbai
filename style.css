@@ -1,0 +1,134 @@
+body{
+  background-color: white;
+}
+.navbar {
+  overflow: hidden;
+  height: 40vh;
+  background-image: url("./image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.navbar h1{
+  color: black;
+  font-family: sans-serif;
+
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+  padding-right: 10%;
+}
+
+.navbar li a {
+  font-size: larger;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  padding-right: 4%;
+}
+
+.navbar li a:hover {
+  background-color: #ffffff;
+}
+
+.banner {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 24px;
+  padding-top: 10%;
+  font-size: 500;
+  font-weight: 300;
+  
+}
+
+.content {
+  padding: 20px;
+}
+
+.album{
+  padding-top: 5%;
+}
+
+.album .responsive-container-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: flex-start;
+}
+
+.album .responsive-container-block.bg {
+  max-width: 1320px;
+  margin: 0 0 0 0;
+  justify-content: space-between;
+}
+
+.album .img {
+  width: 100%;
+  margin: 0 0 20px 0;
+}
+
+.album .responsive-container-block.img-cont {
+  flex-direction: column;
+  max-width: 33.3%;
+  min-height: auto;
+  margin: 0 0 0 0;
+  height: 100%;
+}
+
+
+.album .img.img-big {
+  height: 50%;
+  margin: 0 0 16px 0;
+}
+
+.h3{
+  padding-bottom: 5%;
+  margin-bottom: 5%;
+}
+
+.slider {
+  padding-left: 10%;
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.slides {
+  /* padding-left: 30% !important; */
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
